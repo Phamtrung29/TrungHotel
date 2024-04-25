@@ -1,0 +1,89 @@
+.content-detail h6 {
+  position: relative;
+  font-family: "Alegreya variant0", Tofu;
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.content-detail .img-detail {
+  height: 600px;
+}
+
+.content-detail p {
+  font-family: "Alegreya variant0", Tofu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.content-detail button {
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #ab8a62;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 24px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.content-detail button:hover span {
+  padding-right: 25px;
+}
+
+.content-detail button span {
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.content-detail button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  font-size: 20px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.content-detail button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* page list */
+.page-list {
+  position: relative;
+  display: block;
+}
+.page-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.page-list li + li {
+  margin-top: 10px;
+}
+.page-list-icon {
+  display: flex;
+  align-items: center;
+}
+.page-list-icon i {
+  font-size: 18px;
+  color: #aa8453;
+}
+.page-list-text {
+  margin-left: 15px;
+}
+.page-list-text p {
+  margin: 0;
+}

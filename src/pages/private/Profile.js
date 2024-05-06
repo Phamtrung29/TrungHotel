@@ -374,7 +374,7 @@ export default function Profile() {
 
   return (
     <>
-      <Paralax title="ANHOCT LUXURY HOTEL" content="Profile" />
+      <Paralax title="TRUNG LUXURY HOTEL" content="Profile" />
 
       <div className="container">
         <Box sx={{ width: "100%" }}>
